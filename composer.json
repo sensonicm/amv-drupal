@@ -24,7 +24,9 @@
         "php": ">=7.4",
         "amvpro/amv-profile": "^0.1.0"
     },
-    "require-dev": {},
+    "require-dev": {
+        "drupal/devel": "^4.1"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
@@ -33,7 +35,8 @@
             "composer/installers": true,
             "oomphinc/composer-installers-extender": true,
             "drupal/core-composer-scaffold": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "drupal/core-project-message": true
         }
     },
     "extra": {
